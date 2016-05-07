@@ -12,6 +12,8 @@
 html {
 background:url(bg.jpg) no-repeat center top; 
 background-size: cover;
+background-attachment: fixed;
+
 }
 
 /*______________Style qui gère mon body, le container________________*/
