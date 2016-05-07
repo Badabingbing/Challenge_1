@@ -123,7 +123,7 @@ h1 {
 #intro {
 	margin-top: 0;
 	margin-bottom: 30px;
-	padding-top: 30px;
+	padding-top: 25px;
 	color: #7a7a7a;
 	font-size: 18px;
 	font-weight: 700;
@@ -139,7 +139,7 @@ h1 {
 	font-family: "Bitter";
 	font-weight: 400;
 	color: #7a7a7a;
-	line-height: 150%;
+	line-height: 190%;
 
 }
 
@@ -159,6 +159,7 @@ h1 {
 	font-size: 16px;
 	font-weight: 700;
 	clear: both;
+	font-family: "Bitter";
 	
 }
 
@@ -168,7 +169,6 @@ h1 {
 	width: 260px;
 	position: absolute;
 	display: inline-block; 
-	overflow: auto;
 	margin-top: 30px;
 }
 
@@ -199,5 +199,5 @@ h1 {
 }
 
 .div_titres {
-	margin-top: 275px;
+	margin-top: 230px;
 }
