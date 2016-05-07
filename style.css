@@ -97,13 +97,14 @@ h1 {
 	height:60px;
 	margin-top:-16px;
 	display: block;
+	word-spacing: 5px;
 }
 
 /*______________Styles qui gère mes divs d'icônes__________________*/
 
 .icones {
-	width:35px;
-	height:35px;
+	width:29px;
+	height:29px;
 	margin-top:auto;
 	margin-bottom:auto;
 	text-align:center;
