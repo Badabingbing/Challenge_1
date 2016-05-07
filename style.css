@@ -12,19 +12,17 @@
 html {
 background:url(bg.jpg) no-repeat center top; 
 background-size: cover;
-height:100%;
-width: 1400px;
-height: 1200px;
 }
 
 /*______________Style qui gère mon body, le container________________*/
 
 #container {
 	background:white;
+	margin-top: 0;
 	margin-right:auto;
 	margin-left:auto;
 	width:1020px;
-	height:100%;
+	height:1350px;
 }
 
 /*______________Style qui gère ma DIV noire__________________________________*/
@@ -33,6 +31,7 @@ height: 1200px;
 	height:360px;
 	background:#090401;
 	margin-bottom:0px;
+	margin-top: 0;
 }
 
 /*______________Styles qui gère mes liens de menu_________________________*/
