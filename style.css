@@ -91,7 +91,7 @@ h1 {
 	font-size:18px;
 	color:#cfa205;
 	text-align:center;
-	margin-top:-55px;
+    margin-top: -55px;
 	font-weight: normal;
 }
 
@@ -190,12 +190,8 @@ h1 {
 	margin-left: 700px;
 }
 
-#titre_un {
-	clear: left;
-}
 
 #image_une {
-	float: left;
 	margin-bottom: 30px;
 }
 
