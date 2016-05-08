@@ -5,6 +5,10 @@
 	src: url(JosefinSans-Regular.ttf);
 }
 
+@font-face {
+	font-family: "Bitter";
+	src: url(Bitter-Regular.ttf);
+}
 
 
 /*_______Style qui gère le fond en image et la continuité du fond blanc____*/
