@@ -21,6 +21,10 @@ menu, nav, output, section, summary,
 	vertical-align: baseline;
 }
 
+@media print {
+	body { margin-top: 0 !important }
+}
+
 
 /*_______me permet d'utiliser la police joselin____*/
 
