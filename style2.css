@@ -1,4 +1,68 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
+
+
+@font-face {
+	font-family:"Josefin Sans";
+	src: url(JosefinSans-Regular.ttf);
+}
+
+@font-face {
+	font-family: "Bitter";
+	src: url(Bitter-Regular.ttf);
+}
+
+body {
+	background:url(bg.jpg) no-repeat center top; 
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.container {
+	width: 1024px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+a {
+	text-decoration: none;
+}
+
+.nav a, .key_words, h1, h3 {
+	text-transform: uppercase;
+}
+
+.top {
+	background-color: #090401;
+}
+
+.nav {
+	width: 75%;
+	margin: auto;
+}
+
+.nav a {
+	display: inline-block;
+	padding: 10px 16px;
+
+}
+
+h1, .key_words {
+	text-align: center;
+	color: 
+}
+
+.grey_text, .content {
+	width: 80%; /*arbitraire*/
+}
+
+.grey_text, .description {
+	color: ;
+}
+
+
+
+
