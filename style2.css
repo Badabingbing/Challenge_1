@@ -60,7 +60,10 @@ a:hover, .title_description a:hover, .description a:hover {
 
 h1, .key_words {
 	text-align: center;
-	color: 
+}
+
+h1 {
+	font-family: "Josefin Sans";
 }
 
 .grey_text, .content {
