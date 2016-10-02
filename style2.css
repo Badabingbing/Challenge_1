@@ -38,11 +38,6 @@ a {
 	background-color: #090401;
 }
 
-.nav {
-	width: 75%;
-	margin: auto;
-}
-
 .nav a {
 	display: inline-block;
 	padding: 10px 16px;
@@ -58,12 +53,21 @@ a:hover, .title_description a:hover, .description a:hover {
 	color: #cfa205;
 }
 
-h1, .key_words {
+h1, .key_words, .social_media, .grey_text p, .nav {
 	text-align: center;
 }
 
 h1 {
 	font-family: "Josefin Sans";
+	font-size: 133px;
+	font-weight: normal;
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+
+.key_words {
+	padding-bottom: 30px;
+	font-size: 18px;
 }
 
 .grey_text, .content {
@@ -71,19 +75,27 @@ h1 {
 }
 
 .grey_text {
-	border-bottom: 1px solid #7a7a7a;
+	border-bottom: 2px solid #e8e8e8;
+	font-weight: 700;
 }
 
 .content {
 	display: flex;
+	font-size: 16px;
 }
 
 .cols {
 	width: 33%;
+	font-size: 16px;
 }
 
 .title_description a {
 	color: #090401;
+	font-size: inherit;
+}
+
+.description {
+	font-size: inherit;
 }
 
 .description a {
