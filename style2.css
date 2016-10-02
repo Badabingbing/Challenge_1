@@ -5,20 +5,11 @@
 }
 
 
-@font-face {
-	font-family:"Josefin Sans";
-	src: url(JosefinSans-Regular.ttf);
-}
-
-@font-face {
-	font-family: "Bitter";
-	src: url(Bitter-Regular.ttf);
-}
-
 body {
 	background:url(bg.jpg) no-repeat center top; 
 	background-size: cover;
 	background-attachment: fixed;
+	font-family: "Bitter", Sans-serif;
 }
 
 .container {
@@ -29,6 +20,14 @@ body {
 
 a {
 	text-decoration: none;
+}
+
+.yellow {
+	color: #cfa205;
+}
+
+.grey {
+	color: #7a7a7a;
 }
 
 .nav a, .key_words, h1, h3 {
@@ -47,7 +46,16 @@ a {
 .nav a {
 	display: inline-block;
 	padding: 10px 16px;
+	font-family: "Varela";
+	color: #dbdada;
+}
 
+.nav a:first-child {
+	color: #cfa205;
+}
+
+a:hover, .title_description a:hover, .description a:hover {
+	color: #cfa205;
 }
 
 h1, .key_words {
@@ -59,12 +67,8 @@ h1, .key_words {
 	width: 80%; /*arbitraire*/
 }
 
-.grey_text, .description {
-	color: ;
-}
-
 .grey_text {
-	border-bottom: 1px solid grey;
+	border-bottom: 1px solid #7a7a7a;
 }
 
 .content {
@@ -73,6 +77,14 @@ h1, .key_words {
 
 .cols {
 	width: 33%;
+}
+
+.title_description a {
+	color: #090401;
+}
+
+.description a {
+	color: inherit;
 }
 
 
