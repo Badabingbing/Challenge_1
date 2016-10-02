@@ -63,6 +63,18 @@ h1, .key_words {
 	color: ;
 }
 
+.grey_text {
+	border-bottom: 1px solid grey;
+}
+
+.content {
+	display: flex;
+}
+
+.cols {
+	width: 33%;
+}
+
 
 
 
