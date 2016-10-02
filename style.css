@@ -1,233 +1,148 @@
-/* CSS reset */
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, section, summary,
-{
+* {
 	margin: 0;
 	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-
-@media print {
-	body { margin-top: 0 !important }
+	box-sizing: border-box;
 }
 
 
-/*_______me permet d'utiliser la police joselin____*/
-
-@font-face {
-	font-family:"Josefin Sans";
-	src: url(JosefinSans-Regular.ttf);
+body {
+	background:url(images/bg.jpg) no-repeat center top; 
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: "Bitter", Sans-serif;
 }
 
-@font-face {
-	font-family: "Bitter";
-	src: url(Bitter-Regular.ttf);
-}
-
-
-/*_______Style qui gère le fond en image et la continuité du fond blanc____*/
-
-html {
-background:url(bg.jpg) no-repeat center top; 
-background-size: cover;
-background-attachment: fixed;
-
-}
-
-/*______________Style qui gère mon body, le container________________*/
-
-#container {
-	background:white;
-	margin: 0 auto 0 auto;
-	width:1020px;
-	height:1350px;
-}
-
-/*______________Style qui gère ma DIV noire__________________________________*/
-
-#div_black {
-	height:340px;
-	background:#090401;
-	margin-bottom:0px;
-	margin-top: 0;
-}
-
-/*______________Styles qui gère mes liens de menu_________________________*/
-
-a:hover {
-	color:#cfa205;
+.container {
+	width: 1024px;
+	margin: 0 auto;
+	background-color: white;
 }
 
 a {
-	color:white;
-	text-decoration:none;
-
+	text-decoration: none;
 }
 
-/*______________Style qui gère mon menu fait en tableau__________________*/
-
-table {
-	color:white;
-	margin-right:auto;
-	margin-left:auto;
-	background:#090401;
-	padding: 10px 16px;
-	border-collapse: separate;
-        border-spacing: 35px 0px;
-	
-	font-family:"Varela";
-	font-size:16px;
-    
+.yellow {
+	color: #cfa205;
 }
 
-/*______________Style qui gère mes marges de cellules______________________*/
-
-th {
-	margin-right:15px;
-	margin-left:15px;
-	font-weight: 400;
-	opacity: 0.85;
+.grey {
+	color: #7a7a7a;
 }
 
-/*______________Styles qui gère mes titres__________________________________*/
+.nav a, .key_words, h1, h3 {
+	text-transform: uppercase;
+}
 
-#entete {
-	font-family:"Josefin Sans";
-	font-size:133px;
-	color:#cfa205;
-	text-align:center;
-	margin-top:55px;
+h1, .key_words, .social_media, .grey_text p, .nav {
+	text-align: center;
+}
+
+.top {
+	background-color: #090401;
+}
+
+.nav a {
+	display: inline-block;
+	padding: 13px 16px 10px 16px;
+	font-family: "Varela";
+	color: #dbdada;
+}
+
+.nav a:first-child {
+	color: #cfa205;
+}
+
+a:hover, .title_description a:hover, .description a:hover {
+	color: #cfa205;
+}
+
+h1 {
+	font-family: "Josefin Sans";
+	font-size: 133px;
 	font-weight: normal;
+	padding-top: 60px;
+	padding-bottom: 31px;
 }
 
-#sous_titre {
-	font-family:"Bitter";
-	font-size:18px;
-	color:#cfa205;
-	text-align:center;
-    margin-top: -55px;
-	font-weight: normal;
+.key_words {
+	padding-bottom: 35px;
+	font-size: 18px;
 }
 
-/*______________Style qui gère le fond de ma barre d'icônes__________*/
-
-#fond_icones {
-	background:#e8e8e8;
-	width:1020px;
-	height:60px;
-	margin-top:-16px;
-	display: block;
+.social_media {
+	background-color: #e8e8e8;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	word-spacing: 5px;
 }
 
-/*______________Styles qui gère mes divs d'icônes__________________*/
-
-.icones {
-	width:29px;
-	height:29px;
-	margin-top:auto;
-	margin-bottom:auto;
-	text-align:center;
-	padding-top:12.5px;
+.social_media a {
+	display: inline-block;
+	border-radius: 20px;
+	box-sizing: content-box;
+	border: 3px solid #9a9a9a;
+	color: #9a9a9a;
+	padding: 3px;
+	width: 18px;
+	height: 18px;
 }
 
-.text {
-	width: 780px;
-	height: 90px;
-	margin: 0 auto 30px auto;
+.social_media a:hover {
+	border-color: #7b7b7b;
+	color: #7b7b7b;
+}
+
+.grey_text, .content {
+	width: 88%; /*arbitraire*/
+	margin: auto;
+}
+
+.grey_text {
 	border-bottom: 2px solid #e8e8e8;
-	padding: 30px 60px 90px 60px;
-
-}
-
-#intro {
-	margin-top: 0;
-	margin-bottom: 30px;
-	padding-top: 25px;
-	color: #7a7a7a;
+	font-weight: 700;
+	padding-top: 60px;
+	padding-bottom: 60px;
 	font-size: 18px;
-	font-weight: 700;
-	font-family: "Bitter";
-	text-align: center;
-	line-height: 175%;
-
-
+	line-height: 1.8;
 }
 
-.descriptions {
+.content {
+	display: flex;
 	font-size: 16px;
-	font-family: "Bitter";
-	font-weight: 400;
-	color: #7a7a7a;
-	line-height: 190%;
-
+	padding-top: 55px;
+	padding-bottom: 55px;
 }
 
-.div_images {
-	position: absolute;
-}
-
-#main {
-	width: 900px;
-	height: 675px;
-	position: relative;
-	display: block;
-}
-
-.titres {
-	color: black;
+.cols {
+	width: 33%;
 	font-size: 16px;
-	font-weight: 700;
-	clear: both;
-	font-family: "Bitter";
-	
-}
-
-
-#colonne_un, #colonne_deux, #colonne_trois {
-	height: 675px;
-	width: 260px;
-	position: absolute;
-	display: inline-block; 
-	margin-top: 30px;
-}
-
-#colonne_un {
 	margin-left: 60px;
 }
 
-#colonne_deux {
-	margin-left: 380px;
+.cols:first-child {
+	margin-left: 0;
 }
 
-#colonne_trois {
-	margin-left: 700px;
+.title_description {
+	font-size: inherit;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.title_description a {
+	color: #090401;
+}
+
+.description {
+	font-size: inherit;
+	line-height: 1.9;
+}
+
+.description a {
+	color: inherit;
 }
 
 
-#image_une {
-	margin-bottom: 30px;
-}
 
-.div_descriptions {
-	margin-bottom: 30px;
-	margin-top: 30px;
-}
 
-.div_titres {
-	margin-top: 230px;
-}
