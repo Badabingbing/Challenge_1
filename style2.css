@@ -70,6 +70,25 @@ h1 {
 	font-size: 18px;
 }
 
+
+.social_media {
+	background-color: #e8e8e8;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	word-spacing: 5px;
+}
+
+.social_media a {
+	display: inline-block;
+	border-radius: 20px;
+	box-sizing: content-box;
+	border: 3px solid #9a9a9a;
+	color: #9a9a9a;
+	padding: 3px;
+	width: 18px;
+	height: 18px;
+}
+
 .grey_text, .content {
 	width: 80%; /*arbitraire*/
 }
