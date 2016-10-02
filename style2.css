@@ -111,20 +111,33 @@ h1 {
 .content {
 	display: flex;
 	font-size: 16px;
+	padding-top: 55px;
+	padding-bottom: 50px;
 }
 
 .cols {
 	width: 33%;
 	font-size: 16px;
+	margin-left: 60px;
+}
+
+.cols:first-child {
+	margin-left: 0;
+}
+
+.title_description {
+	font-size: inherit;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .title_description a {
 	color: #090401;
-	font-size: inherit;
 }
 
 .description {
 	font-size: inherit;
+	line-height: 1.9;
 }
 
 .description a {
